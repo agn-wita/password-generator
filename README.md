@@ -5,7 +5,7 @@
 ## HTML 
 title, subtitle, button with CTA, 2 fields with randomly generated passwords
 
-## JavaScript
+## JAVASCRIPT
 - constat array with different characters to select by the program
 - click function to run the program after interaction with button
 - Math.random to generate characters
