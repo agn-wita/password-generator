@@ -1,0 +1,28 @@
+body {
+    background: gray;
+}
+
+button {
+    background: red;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+p {
+    background: white;
+    padding: 3px 6px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background: blueviolet;
+}
