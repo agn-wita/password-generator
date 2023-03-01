@@ -11,3 +11,7 @@ title, subtitle, button with CTA, 2 fields with randomly generated passwords
 - Math.random to generate characters
 - Math.floor
 - loop for to run the code 15 times
+
+## Stage of the project: completed
+
+Please note that this project is based on tutorial but the code was not copied. Every line of code was written by me according to my invention and with deep understanding of the issues.
