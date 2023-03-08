@@ -4,6 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 let firstPass = document.getElementById("first-pass")
 let secondPass = document.getElementById("second-pass")
 let generatePassword = document.getElementById("generatePassword")
+let count = 0
 
 generatePassword.addEventListener("click", function() {
 for (i = 0; i < 15; i++) {
@@ -13,3 +14,11 @@ firstPass.innerHTML += characters[randomFirst]
 secondPass.innerHTML += characters[randomSecond]
 }
 })
+
+function resetPasswords() {
+    count += 1
+    if (count > 1) {
+    firstPass.innerHTML = ""
+    secondPass.innerHTML = ""
+    }
+}
